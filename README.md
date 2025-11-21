@@ -25,15 +25,15 @@ It detects key objects, scene context, and relationships to describe what’s ha
 
 Domain	                            Tools
 
-CV Model	                   CNN / Vision Transformer / BLIP / ImageCaptioning Model
+CV Model	   ->                 CNN / Vision Transformer / BLIP / ImageCaptioning Model
 
-NLP	                         Rule-based + Transformer decoding
+NLP	         ->               Rule-based + Transformer decoding
 
-TTS	                         gTTS (optional)
+TTS	         ->               gTTS (optional)
 
-Frontend                     Streamlit
+Frontend     ->                 Streamlit
 
-Backend	                     Python
+Backend	     ->                Python
 
 
 📌 Use Cases
