@@ -1,12 +1,74 @@
 # Captioncrafter
-CaptionCrafter is an AI-powered tool that generates meaningful and creative captions for images. It combines computer vision to understand the content of an image and natural language processing to produce fluent, human-like captions.
+🖼️ CaptionCrafter — AI Image Caption Generator
 
-✨ Features
+CaptionCrafter is an intelligent vision-language system that automatically generates meaningful natural-language captions from images.
+It detects key objects, scene context, and relationships to describe what’s happening in the picture like a human.
 
-📷 Image Understanding – Analyzes the content of images using deep learning models.
+🚀 Features
 
-📝 Automatic Captioning – Generates relevant, context-aware captions in natural language.
 
-⚡ Customizable – Captions can be tuned for short, descriptive, or creative styles.
+📌 Object & Scene Understanding using Computer Vision models
 
-🎯 Practical Use Cases – Perfect for social media posts, accessibility (alt text), blogging, and marketing.
+🧠 Caption Generation with NLP + contextual reasoning
+
+🌐 Streamlit Web App for instant upload → caption → download
+
+🗣️ Optional Text-to-Speech output (get spoken captions)
+
+🔤 Multi-language caption generation support
+
+📦 Lightweight & easy to deploy anywhere
+
+
+🧩 Technology Stack
+
+
+Domain	                            Tools
+
+CV Model	                   CNN / Vision Transformer / BLIP / ImageCaptioning Model
+
+NLP	                         Rule-based + Transformer decoding
+
+TTS	                         gTTS (optional)
+
+Frontend                     Streamlit
+
+Backend	                     Python
+
+
+📌 Use Cases
+
+
+Accessibility support for visually-impaired users
+
+Social media auto-captions
+
+E-commerce image tagging
+
+Photo library organization
+
+Smart classroom / learning tools
+
+
+🛠 How It Works
+
+
+1️⃣ User uploads an image
+
+2️⃣ Model extracts visual features (objects + scene context)
+
+3️⃣ AI generates human-like caption
+
+4️⃣ Optional speech output for narration
+
+
+🔮 Future Enhancements
+
+
+Real-time webcam captioning
+
+OCR for reading text inside images
+
+Multilingual & style-enhanced captions
+
+Integration with Vision-Language LLMs
